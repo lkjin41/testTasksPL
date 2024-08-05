@@ -18,8 +18,6 @@ for i in range(0, len(nums), m):
     else:
         path.append(curr_int)
 
-print(path)
-
 first_elements = [sublist[0] for sublist in path]
 result_string = "".join(map(str, first_elements))
 
